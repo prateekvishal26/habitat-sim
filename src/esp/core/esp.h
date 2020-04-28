@@ -6,6 +6,8 @@
 
 /** @file */
 
+#define EGL_CAST(type, value) (static_cast<type>(value))
+
 #include <map>
 #include <memory>
 #include <ostream>
